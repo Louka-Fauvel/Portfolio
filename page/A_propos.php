@@ -1,4 +1,4 @@
-<div class="container">
+<?php getTitre("À propos"); ?>
   <p class="text-start mx-5" style="width: 50%;">
     Je suis élève en deuxième année de BTS Service informatique aux organisations
     au pôle SupAvenir Sainte Ursule de Caen en Normandie.

@@ -12,6 +12,7 @@
     <?php
     getNav();
     include_once "page/A_propos.php";
+    include_once "page/Competence.php";
     ?>
 
   </body>
