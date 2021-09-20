@@ -13,6 +13,8 @@
     getNav();
     include_once "page/A_propos.php";
     include_once "page/Competence.php";
+    include_once "page/Experience.php";
+    include_once "page/Formation.php";
     ?>
 
   </body>

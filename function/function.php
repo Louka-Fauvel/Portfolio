@@ -79,4 +79,22 @@ function tableauCompetence($progressBar, $thead, $tbody) {
   echo "</tbody> </table>";
 }
 
+function tableau($tbody) {
+
+  echo "<table class='table table-dark table-hover'> <tbody>";
+
+  foreach ($tbody as $e => $r) {
+    echo "<tr>";
+
+    foreach ($r as $t => $y) {
+      echo "<td class='align-top'>$y</td>";
+
+    }
+
+    echo "</tr>";
+  }
+
+  echo "</tbody> </table>";
+}
+
 ?>
