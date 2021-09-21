@@ -8,12 +8,17 @@
     <title>Portfolio</title>
   </head>
   <body>
-
     <?php
+    espacePage("accueil", 0);
     getNav();
+    include_once "page/Accueil.php";
+    espacePage("a_propos", 5);
     include_once "page/A_propos.php";
+    espacePage("competence", 5);
     include_once "page/Competence.php";
+    espacePage("experience", 5);
     include_once "page/Experience.php";
+    espacePage("formation", 5);
     include_once "page/Formation.php";
     ?>
 

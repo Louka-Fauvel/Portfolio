@@ -2,35 +2,42 @@
 function getNav() {
 
   echo "
-  <nav class='bg-dark'>
+  <div class='position-sticky top-0'>
+  <nav class='bg-dark shadow-lg'>
     <div class='container'>
       <ul class='nav'>
         <li class='nav-item'>
-          <a class='nav-link link-danger' href='index.php'>Accueil</a>
+          <a class='nav-link btn-outline-danger text-light' href='#accueil'>Accueil</a>
         </li>
 
         <li class='nav-item'>
-          <a class='nav-link link-danger' href='index.php'>À propos</a>
+          <a class='nav-link btn-outline-danger text-light' href='#a_propos'>À propos</a>
         </li>
 
         <li class='nav-item'>
-          <a class='nav-link link-danger' href='index.php'>Compétence</a>
+          <a class='nav-link btn-outline-danger text-light' href='#competence'>Compétence</a>
         </li>
 
         <li class='nav-item'>
-          <a class='nav-link link-danger' href='index.php'>Experience</a>
+          <a class='nav-link btn-outline-danger text-light' href='#experience'>Experience</a>
         </li>
 
         <li class='nav-item'>
-          <a class='nav-link link-danger' href='index.php'>Formation</a>
+          <a class='nav-link btn-outline-danger text-light' href='#formation'>Formation</a>
         </li>
 
         <li class='nav-item'>
-          <a class='nav-link link-danger' href='index.php'>Contact</a>
+          <a class='nav-link btn-outline-danger text-light' href='#'>Contact</a>
         </li>
       </ul>
     </div>
-  </nav>";
+  </nav>
+  </div>";
+}
+
+function espacePage($position, $size) {
+  echo "<div id='$position'></div>";
+  echo "<div class='mb-$size'></div>";
 }
 
 function getTitre($titre) {
