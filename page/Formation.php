@@ -1,5 +1,5 @@
 <?php
-getTitre("Formation");
+getTitre("Gris", "Formation");
 
 $btsSio2e_1 = "<b>BTS SIO 2ème année</b><br>SupAvenir Sainte-Ursule<br>2021/2022<br>Caen, Normandie";
 $btsSio2e_2 = "Ce que j'ai fait";
@@ -36,3 +36,4 @@ tableau(
 ["IMAGE", "$preSTI2D_1", "$preSTI2D_2"],
 ["IMAGE", "$secGenerale_1", "$secGenerale_2"]]);
 ?>
+</div>

@@ -19,7 +19,7 @@ function getNav() {
         </li>
 
         <li class='nav-item'>
-          <a class='nav-link btn-outline-danger text-light' href='#experience'>Experience</a>
+          <a class='nav-link btn-outline-danger text-light' href='#experience'>Expérience</a>
         </li>
 
         <li class='nav-item'>
@@ -27,7 +27,7 @@ function getNav() {
         </li>
 
         <li class='nav-item'>
-          <a class='nav-link btn-outline-danger text-light' href='#'>Contact</a>
+          <a class='nav-link btn-outline-danger text-light' href='#contact'>Contact</a>
         </li>
       </ul>
     </div>
@@ -35,23 +35,30 @@ function getNav() {
   </div>";
 }
 
-function espacePage($position, $size) {
+function espacePage($position, $size, $couleur) {
+
   echo "<div id='$position'></div>";
-  echo "<div class='mb-$size'></div>";
+  echo "<div class='pb-$size background$couleur'></div>";
 }
 
-function getTitre($titre) {
+function backgroundDiagonal($choix) {
+  echo "<div class='diagonalImg$choix'></div>";
 
-  echo "<div class='container'> <h1 class='text-center'>$titre</h1>";
+}
+
+function getTitre($couleur, $titre) {
+
+  echo "<div class='background$couleur'> <div class='container'> <h1 class='text-center text-light'>$titre</h1>
+        <div class='mb-5'></div>";
 }
 
 function tableauCompetence($progressBar, $thead, $tbody) {
 
-  echo "<table class='table table-dark table-hover'> <thead> <tr>";
+  echo "<table class='table table-borderless'> <thead> <tr>";
 
   foreach ($thead as $i => $j) {
 
-    echo "<th scope='col' class='text-center'>$j</th>";
+    echo "<th scope='col' class='text-center text-light'>$j</th>";
   }
 
   echo "</tr> </thead> <tbody> <tr>";
@@ -59,7 +66,7 @@ function tableauCompetence($progressBar, $thead, $tbody) {
   foreach ($progressBar as $a => $z) {
     echo "<td class='text-center'>
       <div class='progress'>
-        <div class='progress-bar' role='progressbar' style='width: $z%' aria-valuenow='$z' aria-valuemin='0' aria-valuemax='100'></div>
+        <div class='progress-bar progress-bar-striped bg-danger progress-bar-animated' role='progressbar' style='width: $z%' aria-valuenow='$z' aria-valuemin='0' aria-valuemax='100'>$z%</div>
       </div></td>";
   }
 
@@ -72,11 +79,11 @@ function tableauCompetence($progressBar, $thead, $tbody) {
 
       if ($y == "&nbsp;") {
 
-        echo "<td class='text-center'>$y</td>";
+        echo "<td class='text-center text-light'>$y</td>";
 
       } else {
 
-        echo "<td class='align-top'><li>$y</li></td>";
+        echo "<td class='align-top text-light'><li>$y</li></td>";
       }
     }
 
@@ -88,7 +95,7 @@ function tableauCompetence($progressBar, $thead, $tbody) {
 
 function tableau($tbody) {
 
-  echo "<table class='table table-dark table-hover'> <tbody>";
+  echo "<table class='table table-dark'> <tbody>";
 
   foreach ($tbody as $e => $r) {
     echo "<tr>";
