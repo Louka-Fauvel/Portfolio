@@ -7,7 +7,7 @@
     transform: skewY(11deg);
 }
 /*#313131*/
-.backgroundGris {background-color: #313131;}
+.backgroundGris {background-color: #212529;}
 
 .backgroundRed {background-color: #8B0000;}
 
@@ -15,7 +15,7 @@
 	position: relative;
 	width: 100%;
 	height: 300px;
-	background-image: linear-gradient(to top right, #8B0000 50%, #313131 50%);
+	background-image: linear-gradient(to top right, #8B0000 50%, #212529 50%);
 	z-index:1
 }
 
@@ -23,14 +23,14 @@
 	position: relative;
 	width: 100%;
 	height: 300px;
-	background-image: linear-gradient(to top right, #313131 50%, #8B0000 50%);
+	background-image: linear-gradient(to top right, #212529 50%, #8B0000 50%);
 	z-index:1
 }
 
 .bi-square-fill {
   color: #FF0000;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 40%;
   animation: fall linear forwards;
   z-index: 0;

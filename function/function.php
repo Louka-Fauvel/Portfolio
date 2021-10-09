@@ -2,7 +2,7 @@
 function getNav() {
 
   echo "
-  <div class='position-sticky top-0'>
+  <div class='position-sticky top-0' style='z-index:2'>
   <nav class='bg-dark shadow-lg'>
     <div class='container'>
       <ul class='nav'>
@@ -77,7 +77,7 @@ function tableauCompetence($progressBar, $thead, $tbody) {
 
     foreach ($r as $t => $y) {
 
-      if ($y == "&nbsp;") {
+      if ($y == "") {
 
         echo "<td class='text-center text-light'>$y</td>";
 

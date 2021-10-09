@@ -2,7 +2,10 @@
 getTitre("Gris", "Formation");
 
 $btsSio2e_1 = "<b>BTS SIO 2ème année</b><br>SupAvenir Sainte-Ursule<br>2021/2022<br>Caen, Normandie";
-$btsSio2e_2 = "Ce que j'ai fait";
+$btsSio2e_2 = "Conception et administration de bases de données, conception Web,
+génie logiciel, cybersécurité et configuration de réseaux, architecture informatique.
+<br><br>Langages et outils : HTML/CSS, PHP, Framework (Bootstrap, Semantic Ui), Python, SQL, Javascript, JAVA
+<br>Concepts : Algorithmique, POO, méthode Merise";
 
 $btsSio1er_1 = "<b>BTS SIO 1ère année</b><br>SupAvenir Sainte-Ursule<br>2020/2021<br>Caen, Normandie";
 $btsSio1er_2 = "Conception et administration de bases de données, conception Web,
@@ -30,10 +33,10 @@ $secGenerale_1 = "<b>Seconde générale</b><br>Lycée Dumont d'Urville<br>2017/2
 $secGenerale_2 = "Option Sciences de l'ingénieur";
 
 tableau(
-[["IMAGE", "$btsSio2e_1", "$btsSio2e_2"],
-["IMAGE", "$btsSio1er_1", "$btsSio1er_2"],
-["IMAGE", "$termSTI2D_1", "$termSTI2D_2"],
-["IMAGE", "$preSTI2D_1", "$preSTI2D_2"],
-["IMAGE", "$secGenerale_1", "$secGenerale_2"]]);
+[["<img src='./image/SupAvenir.png' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$btsSio2e_1", "$btsSio2e_2"],
+["<img src='./image/SupAvenir.png' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$btsSio1er_1", "$btsSio1er_2"],
+["<img src='./image/Lemonnier.jpg' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$termSTI2D_1", "$termSTI2D_2"],
+["<img src='./image/Lemonnier.jpg' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$preSTI2D_1", "$preSTI2D_2"],
+["<img src='./image/Dumont.jpg' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$secGenerale_1", "$secGenerale_2"]]);
 ?>
 </div>
