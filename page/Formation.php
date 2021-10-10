@@ -33,10 +33,10 @@ $secGenerale_1 = "<b>Seconde générale</b><br>Lycée Dumont d'Urville<br>2017/2
 $secGenerale_2 = "Option Sciences de l'ingénieur";
 
 tableau(
-[["<img src='./image/SupAvenir.png' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$btsSio2e_1", "$btsSio2e_2"],
-["<img src='./image/SupAvenir.png' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$btsSio1er_1", "$btsSio1er_2"],
-["<img src='./image/Lemonnier.jpg' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$termSTI2D_1", "$termSTI2D_2"],
-["<img src='./image/Lemonnier.jpg' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$preSTI2D_1", "$preSTI2D_2"],
-["<img src='./image/Dumont.jpg' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$secGenerale_1", "$secGenerale_2"]]);
+[["<img src='./image/SupAvenir.png' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo'>", "$btsSio2e_1", "$btsSio2e_2"],
+["<img src='./image/SupAvenir.png' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo'>", "$btsSio1er_1", "$btsSio1er_2"],
+["<img src='./image/Lemonnier.jpg' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo'>", "$termSTI2D_1", "$termSTI2D_2"],
+["<img src='./image/Lemonnier.jpg' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo'>", "$preSTI2D_1", "$preSTI2D_2"],
+["<img src='./image/Dumont.jpg' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo'>", "$secGenerale_1", "$secGenerale_2"]]);
 ?>
 </div>

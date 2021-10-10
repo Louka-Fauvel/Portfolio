@@ -27,9 +27,9 @@ Utiliser les outils du graphiste pour créer des images.
 <br><br>Outils : Adobe Photoshop";
 
 tableau(
-[["<img src='./image/KNP.png' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo KNPLabs'>", "$knpLabs_1", "$knpLabs_2"],
-["<img src='./image/Erasmus.png' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$erasmusSuede_1", "$erasmusSuede_2"],
-["<img src='./image/Erasmus.png' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$erasmusFrance_1", "$erasmusFrance_2"],
-["<img src='./image/Corlet.png' class='img-fluid position-relative' style='width:200px; z-index:1' alt='Logo'>", "$corlet_1", "$corlet_2"]]);
+[["<img src='./image/KNPLabs.jpg' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo KNPLabs'>", "$knpLabs_1", "$knpLabs_2"],
+["<img src='./image/Erasmus.png' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo'>", "$erasmusSuede_1", "$erasmusSuede_2"],
+["<img src='./image/Erasmus.png' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo'>", "$erasmusFrance_1", "$erasmusFrance_2"],
+["<img src='./image/Corlet.png' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo'>", "$corlet_1", "$corlet_2"]]);
 ?>
 </div>

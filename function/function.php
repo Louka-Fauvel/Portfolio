@@ -95,7 +95,7 @@ function tableauCompetence($progressBar, $thead, $tbody) {
 
 function tableau($tbody) {
 
-  echo "<table class='table table-dark'> <tbody>";
+  echo "<table class='table text-light'> <tbody>";
 
   foreach ($tbody as $e => $r) {
     echo "<tr>";
