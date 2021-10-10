@@ -14,6 +14,7 @@
     <?php
     espacePage("accueil", 0, "Gris");
     getNav();
+    espaceContact();
     include_once "page/Accueil.php";
     backgroundDiagonal(1);
 

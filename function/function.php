@@ -35,6 +35,14 @@ function getNav() {
   </div>";
 }
 
+function espaceContact() {
+  echo "<div class='position-fixed top-50 end-0 translate-middle-y' style='z-index:3'>
+          <a class='nav-link btn-outline-danger text-light' href=''><i class='bi bi-github'></i></a>
+          <a class='nav-link btn-outline-danger text-light' href=''><i class='bi bi-facebook'></i></a>
+          <a class='nav-link btn-outline-danger text-light' href=''><i class='bi bi-linkedin'></i></a>
+        </div>";
+}
+
 function espacePage($position, $size, $couleur) {
 
   echo "<div id='$position'></div>";
