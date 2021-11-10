@@ -2,7 +2,7 @@
 function getNav() {
 
   echo "
-  <div class='position-sticky top-0' style='z-index:2'>
+  <div class='position-sticky top-0' style='z-index:3'>
   <nav class='bg-dark shadow-lg'>
     <div class='container'>
       <ul class='nav'>
@@ -36,10 +36,10 @@ function getNav() {
 }
 
 function espaceContact() {
-  echo "<div class='position-fixed top-50 end-0 translate-middle-y' style='z-index:3'>
-          <a class='nav-link btn-outline-danger text-light' href=''><i class='bi bi-github'></i></a>
-          <a class='nav-link btn-outline-danger text-light' href=''><i class='bi bi-facebook'></i></a>
-          <a class='nav-link btn-outline-danger text-light' href=''><i class='bi bi-linkedin'></i></a>
+  echo "<div class='position-fixed end-0 shadow bg-dark rounded espaceContact' style='z-index:2'>
+          <a class='nav-link btn-outline-light fs-1' href='https://github.com/Louka-Fauvel' target='_blank'><i class='bi bi-github link-secondary'></i></a>
+          <a class='nav-link btn-outline-light fs-1' href='https://www.facebook.com/louka.fauvel/' target='_blank'><i class='bi bi-facebook link-primary'></i></a>
+          <a class='nav-link btn-outline-light fs-1' href='https://www.linkedin.com/in/louka-fauvel-268411209/' target='_blank'><i class='bi bi-linkedin link-primary'></i></a>
         </div>";
 }
 
@@ -119,4 +119,28 @@ function tableau($tbody) {
   echo "</tbody> </table>";
 }
 
+function footerModal($nom, $id, $text) {
+  echo "
+  <button type='button' class='btn btn-outline-danger border border-light text-light' data-bs-toggle='modal' data-bs-target='#$id'>
+    $nom
+  </button>
+
+  <div class='modal fade' id='$id' tabindex='-1' aria-labelledby='$id/Label' aria-hidden='true'>
+    <div class='modal-dialog'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title' id='$id/Label'>$nom</h5>
+          <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
+        </div>
+        <div class='modal-body text-start'>
+
+          $text
+
+        </div>
+        <div class='modal-footer'>
+        </div>
+      </div>
+    </div>
+  </div>";
+}
 ?>

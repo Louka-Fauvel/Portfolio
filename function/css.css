@@ -6,6 +6,12 @@
 .content {
     transform: skewY(11deg);
 }
+
+.espaceContact {
+	padding-bottom: 55vh;
+	padding-top: 25vh;
+}
+
 /*#313131*/
 .backgroundGris {background-color: #212529;}
 

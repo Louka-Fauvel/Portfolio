@@ -31,5 +31,7 @@ tableau(
 ["<img src='./image/Erasmus.png' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo'>", "$erasmusSuede_1", "$erasmusSuede_2"],
 ["<img src='./image/Erasmus.png' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo'>", "$erasmusFrance_1", "$erasmusFrance_2"],
 ["<img src='./image/Corlet.png' class='img-fluid rounded position-relative' style='width:500px; z-index:1' alt='Logo'>", "$corlet_1", "$corlet_2"]]);
+//Fauvel_Louka_CV.pdf
+echo "<div class='text-center mt-5'> <a class='btn btn-outline-dark border border-light text-light btn-lg' href='Document/Fauvel_Louka_CV.pdf' target='_blank'>Télécharger mon CV</a> </div>";
 ?>
 </div>
